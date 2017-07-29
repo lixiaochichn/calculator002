@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    /*font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;*/
 }
 .threedcalborder {
     display: flex;
@@ -40,10 +41,15 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 45px;
     padding-right: 12px;
     padding-left: 12px;
     color: #FF7466;
+}
+.result {
+    font-family: 'lcdmono2bold',sans-serif;
+    font-size: 45px;
+    /*font: 45px lcdmono2bold, Arial, sans-serif;    */
+
 }
 .keyborder {
     display: flex;
@@ -134,3 +140,4 @@ height: 82px;
 .buttontop:active {
 transform: translate(0, 3px);
 }
+
