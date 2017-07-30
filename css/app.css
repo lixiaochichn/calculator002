@@ -121,8 +121,10 @@ font-size: 16px;
 border-radius: 4px; 
 z-index: 6;
 margin-top: -5px;
-transition: .1s;
+transition: .05s;
 cursor: pointer;
+outline: none;
+user-select: none;
 }
 
 .bottonbottom {
